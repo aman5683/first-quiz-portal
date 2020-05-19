@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+
+</head>
+<body>
+	
+	<div id="quizcontainer" class="container">
+		<div class="title">Computer Quiz</div>
+		<div id="questions" class="questions"></div>
+		<label class="option"><input type="radio" name="option" value="1"><span id="opt1"></span></label>
+		<label class="option"><input type="radio" name="option" value="2"><span id="opt2"></span></label>
+		<label class="option"><input type="radio" name="option" value="3"><span id="opt3"></span></label>
+		<label class="option"><input type="radio" name="option" value="4"><span id="opt4"></span></label>
+		<button id="nextque" class="nextbtn test" onclick="loadNextQuestion();">Next Question</button>
+	</div>
+	<div id="result" class="result" style="display: none;">
+	</div>
+	<script type="text/javascript" src="questions.js"></script>
+	<script type="text/javascript" src="Quiz.js"></script>
+</body>
+</html>
