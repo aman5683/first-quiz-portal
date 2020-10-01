@@ -12,13 +12,13 @@ background:url(https://cdn1.vectorstock.com/i/1000x1000/29/40/question-mark-back
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
 	background: #000000;
-	padding:20px;
+	padding:21px;
 	border: 1px solid #08038C;
 	box-shadow: 0 0 8px 3px #ffffff;
 	border-radius: 20px;
 }
 .title{
-	padding-top: 20px;
+	padding-top: 21px;
 	text-align: center;
 	transition: transform .2s;
 	font-size: 36px;
@@ -31,7 +31,7 @@ background:url(https://cdn1.vectorstock.com/i/1000x1000/29/40/question-mark-back
 
 }
 .questions{
-	padding: 20px;
+	padding: 21px;
 	font-size: 22px;
 	background-color: #08038C;
 	border-radius: 20px;
